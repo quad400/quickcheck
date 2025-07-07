@@ -89,8 +89,8 @@ A fully responsive **loan management mobile application** built with **TypeScrip
 
 ```bash
 # 1. Clone the project
-git clone https://github.com/quad400/quick-check.git
-cd quick-check
+git clone https://github.com/quad400/quickcheck.git
+cd quickcheck
 
 # 2. Install dependencies
 npm install
