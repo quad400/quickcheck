@@ -99,8 +99,8 @@ npm install
 npx expo prebuild
 
 # 4. Run Project on simulator and emulator 
-npx expo run:ios # simulator
-npx expo run:android  # emulator
+npx expo run:ios
+npx expo run:android
 ```
 
 ### 📲 Running on Device
