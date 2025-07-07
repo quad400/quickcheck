@@ -1,0 +1,128 @@
+[
+  {
+    "id": "1",
+    "image": "https://res.cloudinary.com/dupox1iqn/image/upload/w_400,ar_1:1,c_fill,g_auto/v1751705529/QuickLoan/olga-kononenko-98__MsKaUsI-unsplash_sm0zf9.jpg",
+    "amount": "5000",
+    "purpose": "Medical Emergency",
+    "status": "default",
+    "featured_type": "Fast Approval",
+    "applied_date": null
+  },
+  {
+    "id": "2",
+    "image": "https://res.cloudinary.com/dupox1iqn/image/upload/w_400,ar_1:1,c_fill,g_auto/v1751705534/QuickLoan/towfiqu-barbhuiya-jpqyfK7GB4w-unsplash_uyodzo.jpg",
+    "amount": "15000",
+    "purpose": "Business Expansion",
+    "status": "approved",
+    "featured_type": "Flexible Agreement",
+    "applied_date": "2025-06-21T11:45:12Z"
+  },
+  {
+    "id": "3",
+    "image": "https://res.cloudinary.com/dupox1iqn/image/upload/w_400,ar_1:1,c_fill,g_auto/v1751705529/QuickLoan/kimberly-farmer-lUaaKCUANVI-unsplash_w8k2oe.jpg",
+    "amount": "2000",
+    "purpose": "School Fees",
+    "status": "rejected",
+    "featured_type": null,
+    "applied_date": "2025-06-04T08:12:44Z"
+  },
+  {
+    "id": "4",
+    "image": "https://res.cloudinary.com/dupox1iqn/image/upload/w_400,ar_1:1,c_fill,g_auto/v1751705531/QuickLoan/tierra-mallorca-rgJ1J8SDEAY-unsplash_ehzfxm.jpg",
+    "amount": "10000",
+    "purpose": "Rent Payment",
+    "status": "approved",
+    "featured_type": "Fast Approval",
+    "applied_date": "2025-06-19T14:23:30Z"
+  },
+  {
+    "id": "5",
+    "image": "https://res.cloudinary.com/dupox1iqn/image/upload/w_400,ar_1:1,c_fill,g_auto/v1751706041/QuickLoan/kate-ibragimova-bEGTsOCnHro-unsplash_dcweld.jpg",
+    "amount": "8000",
+    "purpose": "Car Repair",
+    "status": "default",
+    "featured_type": "Flexible Agreement",
+    "applied_date": null
+  },
+  {
+    "id": "6",
+    "image": "https://res.cloudinary.com/dupox1iqn/image/upload/w_400,ar_1:1,c_fill,g_auto/v1751705539/QuickLoan/nathan-dumlao-5BB_atDT4oA-unsplash_blpn1b.jpg",
+    "amount": "12000",
+    "purpose": "Wedding",
+    "status": "flagged",
+    "featured_type": null,
+    "applied_date": null
+  },
+  {
+    "id": "9",
+    "image": "https://res.cloudinary.com/dupox1iqn/image/upload/w_400,ar_1:1,c_fill,g_auto/v1751706208/QuickLoan/maria-lin-kim-8RaUEd8zD-U-unsplash_arhsrn.jpg",
+    "amount": "6000",
+    "purpose": "Groceries",
+    "status": "pending",
+    "featured_type": null,
+    "applied_date": "2025-07-02T09:55:00Z"
+  },
+  {
+    "id": "10",
+    "image": "https://res.cloudinary.com/dupox1iqn/image/upload/w_400,ar_1:1,c_fill,g_auto/v1751705525/QuickLoan/kilian-seiler-PZLgTUAhxMM-unsplash_yb59zq.jpg",
+    "amount": "3000",
+    "purpose": "Phone Repair",
+    "status": "rejected",
+    "featured_type": null,
+    "applied_date": "2025-06-12T10:35:25Z"
+  },
+  {
+    "id": "11",
+    "image": "https://res.cloudinary.com/dupox1iqn/image/upload/w_400,ar_1:1,c_fill,g_auto/v1751706031/QuickLoan/karly-jones-ueRKHcCOhnM-unsplash_r2ktsc.jpg",
+    "amount": "9000",
+    "purpose": "Household Equipment",
+    "status": "pending",
+    "featured_type": "Fast Approval",
+    "applied_date": "2025-07-01T12:20:58Z"
+  },
+  {
+    "id": "12",
+    "image": "https://res.cloudinary.com/dupox1iqn/image/upload/w_400,ar_1:1,c_fill,g_auto/v1751705528/QuickLoan/toa-heftiba-FV3GConVSss-unsplash_pwbhnl.jpg",
+    "amount": "11000",
+    "purpose": "Furniture Purchase",
+    "status": "approved",
+    "featured_type": "Flexible Agreement",
+    "applied_date": "2025-06-15T16:40:00Z"
+  },
+  {
+    "id": "15",
+    "image": "https://res.cloudinary.com/dupox1iqn/image/upload/w_400,ar_1:1,c_fill,g_auto/v1751705529/QuickLoan/may-jane-ymbR9nLrpd0-unsplash_chestw.jpg",
+    "amount": "30000",
+    "purpose": "Hospital Bill",
+    "status": "approved",
+    "featured_type": "Fast Approval",
+    "applied_date": "2025-06-18T13:15:48Z"
+  },
+  {
+    "id": "16",
+    "image": "https://res.cloudinary.com/dupox1iqn/image/upload/w_400,ar_1:1,c_fill,g_auto/v1751705528/QuickLoan/chanhee-lee-vkvHBK8n_gs-unsplash_lr7ndk.jpg",
+    "amount": "500",
+    "purpose": "Utility Bills",
+    "status": "rejected",
+    "featured_type": null,
+    "applied_date": "2025-06-09T17:02:20Z"
+  },
+  {
+    "id": "17",
+    "image": "https://res.cloudinary.com/dupox1iqn/image/upload/w_400,ar_1:1,c_fill,g_auto/v1751705533/QuickLoan/why-kei-8e2gal_GIE8-unsplash_ododbm.jpg",
+    "amount": "18000",
+    "purpose": "Vehicle Purchase",
+    "status": "approved",
+    "featured_type": "Flexible Agreement",
+    "applied_date": "2025-06-27T08:47:10Z"
+  },
+  {
+    "id": "18",
+    "image": "https://res.cloudinary.com/dupox1iqn/image/upload/w_400,ar_1:1,c_fill,g_auto/v1751705531/QuickLoan/tierra-mallorca-rgJ1J8SDEAY-unsplash_ehzfxm.jpg",
+    "amount": "4000",
+    "purpose": "Short-Term Rent",
+    "status": "pending",
+    "featured_type": null,
+    "applied_date": "2025-07-03T06:10:05Z"
+  }
+]

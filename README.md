@@ -1,50 +1,149 @@
-# Welcome to your Expo app 👋
+# 📲 Quick Check Task Submission - React Native App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A fully responsive **loan management mobile application** built with **TypeScript**, **React Native**, and **Expo**. This was developed as part of quickcheck company task to demonstrate core mobile engineering skills like **authentication**, **state management**, **API integration**, **form validation**, **dark mode persistence**, and **secure session handling**.
 
-## Get started
+> 🔐 Login | 🏠 Loan Home Page | 💼 Apply for Loan | 🌙 Dark/Light Mode | 🧠 Persistent Sessions | 🚀 Built with TypeScript
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
+## Login Information
 ```bash
-npm run reset-project
+{  
+   email: "test@test.com",
+   password: "Test123."
+}
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+## 📸 Demo
 
-To learn more about developing your project with Expo, look at the following resources:
+<img src="src/assets/screeens/Screenshot 2025-07-07 at 7.15.16 AM.png" width="250" /> 
+<img src="src/assets/screeens/Screenshot 2025-07-07 at 7.15.46 AM.png" width="250" /> 
+<img src="src/assets/screeens/Screenshot 2025-07-07 at 7.15.52 AM.png" width="250" />
+<img src="src/assets/screeens/Screenshot 2025-07-07 at 7.15.57 AM.png" width="250" />
+<img src="src/assets/screeens/Screenshot 2025-07-07 at 7.16.13 AM.png" width="250" />
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+📹 **Watch Demo Video**
 
-## Join the community
+[Click Here To Watch](https://player.cloudinary.com/embed/?cloud_name=dupox1iqn&public_id=Simulator_Screen_Recording_-_iPhone_16_Pro_Max_-_2025-07-07_at_07.02.10_jfxevl&profile=cld-default)
+---
 
-Join our community of developers creating universal apps.
+## ✅ Features
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+### 1. 🔐 Authentication Flow
+
+* Login screen with **email** and **password** fields
+* Basic form validation (required fields + email format + password validations)
+* On success:
+
+  * Navigates to home screen
+  * Stores session token in `AsyncStorage`
+  * Automatically retains user session on app restart
+
+### 2. 🏠 Home Screen - Loan List
+
+* Displays a list of loans (mocked data with `timestamp` query support)
+* Shows:
+
+  * **Loan Amount**
+  * **Loan Status** (color-coded badge)
+  * **Date Applied**
+* Tap on a loan to view detailed information
+
+### 3. 📝 Apply for Loan
+
+* Form screen to request a new loan:
+
+  * Fields: **amount**, **purpose**
+  * Input validation before submission
+* Simulated `POST` request with success/error handling
+* Displays a **toast** message on success
+
+### 4. 🌙 Dark/Light Mode
+
+* Supports **Dark Mode** and **Light Mode**
+* Stores preferred mode in `AsyncStorage`
+* Automatically applies saved mode on app relaunch
+
+### 5. 🧠 Persistent Session & UX Enhancements
+
+* User stays logged in across sessions
+* Retains dark/light mode selection
+* Smooth navigation transitions
+* Pull-to-refresh implemented on loan list
+
+---
+
+## 🛠️ Tech Stack
+
+* **React Native**
+* **TypeScript**
+* **Expo**
+* **Expo Router**
+* **AsyncStorage**
+* **Sonner Native**
+* **Tanstack Query**
+
+---
+
+## ⚙️ Installation Guide
+
+> Ensure you have `node`, `expo-cli`, and an emulator, simulator or physical device ready.
+
+```bash
+# 1. Clone the project
+git clone https://github.com/quad400/quick-check.git
+cd quick-check
+
+# 2. Install dependencies
+npm install
+
+# 3. Prebuild Project 
+npx expo prebuild
+
+# 4. Run Project on simulator and emulator 
+npx expo run:ios # simulator
+npx expo run:android  # emulator
+```
+
+### 📲 Running on Device
+
+* **iOS**: Scan QR code with Camera (Expo Go)
+* **Android**: Scan with Expo Go app
+
+---
+
+## 📌 Notes
+
+* All data is mocked and managed locally via `JSON`.
+* Token and dark mode preference are stored securely using `AsyncStorage`.
+* Simulated backend behavior for demonstration purposes (no real API calls).
+
+---
+
+## 🌟 Task Objectives Fulfilled
+
+| Feature                          | Status |
+| -------------------------------- | ------ |
+| Authentication w/ Token Storage  | ✅      |
+| Loan Listing + Status Badge      | ✅      |
+| Loan Details Screen              | ✅      |
+| Apply for Loan Form + Validation | ✅      |
+| Pull-to-Refresh                  | ✅      |
+| Toast on Submission     | ✅      |
+| Dark Mode + Theme Persistence    | ✅      |
+| TypeScript Usage                 | ✅      |
+| Responsive Layout                | ✅      |
+| Smooth Navigation                | ✅      |
+
+---
+
+## 🙌 Author
+
+**Adediji Abdulquadri**
+Mobile Engineer — React Native & TypeScript
+[LinkedIn](https://www.linkedin.com/in/abdulquadri-adediji/) • [GitHub](https://github.com/quad400)
+
+
+
