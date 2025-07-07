@@ -18,11 +18,7 @@ A fully responsive **loan management mobile application** built with **TypeScrip
 
 ## 📸 Demo
 
-<img src="src/assets/screeens/Screenshot 2025-07-07 at 7.15.16 AM.png" width="250" /> 
-<img src="src/assets/screeens/Screenshot 2025-07-07 at 7.15.46 AM.png" width="250" /> 
-<img src="src/assets/screeens/Screenshot 2025-07-07 at 7.15.52 AM.png" width="250" />
-<img src="src/assets/screeens/Screenshot 2025-07-07 at 7.15.57 AM.png" width="250" />
-<img src="src/assets/screeens/Screenshot 2025-07-07 at 7.16.13 AM.png" width="250" />
+<img src="src/assets/screeens/Screenshot 2025-07-07 at 7.15.16 AM.png" width="250" /> <img src="src/assets/screeens/Screenshot 2025-07-07 at 7.15.46 AM.png" width="250" /> <img src="src/assets/screeens/Screenshot 2025-07-07 at 7.15.52 AM.png" width="250" /><img src="src/assets/screeens/Screenshot 2025-07-07 at 7.15.57 AM.png" width="250" /><img src="src/assets/screeens/Screenshot 2025-07-07 at 7.16.13 AM.png" width="250" />
 
 📹 **Watch Demo Video**
 
