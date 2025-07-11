@@ -29,6 +29,14 @@ const RootLayout = () => {
               style={{
                 pointerEvents: "none",
               }}
+              icons={{
+                success: (
+                  <AntDesign  name="checkcircleo" color={"#187C4F"} size={18} />
+                ),
+                error: (
+                  <AntDesign  name="closecircleo" color={"#D84040"} size={18} />
+                ),
+              }}
               duration={600}
             />
           </AppProvider>
